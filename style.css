@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+* { box-sizing: border-box;}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+  background-image: url("./collage.jpg"); 
+  background-size: cover;
+}
+
+form {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  margin: 30px 5px 20px;
+  font-size: 40px;
+}
+
+input {
+  padding: 5px;
+  font-size: 20px;
+  border: 2px solid grey;
+}
+
+.user {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: 20px 19%;
+  padding: 0 20px;
+}
+
+.infoAboutUser {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.infoAboutUser:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.infoAboutUser a {
+  margin: 5px 0 30px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+

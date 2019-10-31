@@ -24,13 +24,14 @@ class App extends React.Component {
     return (
       <div>
         <form onSubmit={event => this.onSubmit(event)}>
-          <label htmlFor="searchText">Search GitHub users by name</label>
+          <label htmlFor="searchText">Search GitHub users by name </label>
           <input
             type="text"
             id="searchText"
             onChange={event => this.onChangeHandle(event)}
             value={this.state.searchText}/>
         </form>
+        <p> press enter</p>
           <UsersList users={this.state.users}/>
       </div>
     );

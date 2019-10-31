@@ -6,7 +6,11 @@ body {
   display: flex;
   justify-content: center;
   background-image: url("./collage.jpg"); 
-  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-attachment: fixed;
+  text-align: center;
 }
 
 form {
@@ -31,9 +35,9 @@ input {
 .user {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   background-color: rgba(0, 0, 0, 0.4);
-  margin: 20px 19%;
-  padding: 0 20px;
+  margin: 15%;
 }
 
 .infoAboutUser {

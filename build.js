@@ -59,7 +59,7 @@ var App = function (_React$Component) {
           React.createElement(
             "label",
             { htmlFor: "searchText" },
-            "Search GitHub users by name"
+            "Search GitHub users by name "
           ),
           React.createElement("input", {
             type: "text",
@@ -68,6 +68,11 @@ var App = function (_React$Component) {
               return _this3.onChangeHandle(event);
             },
             value: this.state.searchText })
+        ),
+        React.createElement(
+          "p",
+          null,
+          " press enter"
         ),
         React.createElement(UsersList, { users: this.state.users })
       );
